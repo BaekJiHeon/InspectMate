@@ -1,0 +1,45 @@
+{
+  "newB": true,
+  "newC": true,
+  "oldB": false,
+  "oldC": false,
+  "replay": true,
+  "title": true,
+  "leftQuery": true,
+  "datasetGallery": true,
+  "examplesZip": true,
+  "h2": 12,
+  "mermaid": 2,
+  "unknownBlocks": 0,
+  "lastEdited": "2026-09-17T09:07:02.165Z",
+  "browserMediaVerified": [
+    {
+      "file": "vlm-workflow-catalog.gif",
+      "complete": true,
+      "width": 1147,
+      "height": 989
+    },
+    {
+      "file": "patchcore-workflow-catalog.gif",
+      "complete": true,
+      "width": 1147,
+      "height": 989
+    }
+  ],
+  "frontend": {
+    "build": "passed: tsc -b && vite build",
+    "font": {
+      "family": "Hahmlet",
+      "status": "loaded",
+      "check16px": true,
+      "navPx": 14,
+      "secondaryPx": 13
+    },
+    "desktopOverflow": false,
+    "narrowInspectionOverflow": false,
+    "narrowHistoryOverflow": false,
+    "narrowExperimentsOverflow": false,
+    "handlers": "read-only audit: unchanged logic and event handlers"
+  },
+  "inferenceRerun": false
+}

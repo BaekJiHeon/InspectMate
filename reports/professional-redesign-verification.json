@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-17T03:18:43.560Z",
+  "policy_cases_passed": 11,
+  "react_server_render": "passed",
+  "react_warnings": 0,
+  "actual_records": [
+    {
+      "inspection_id": "50e6d89943fe41409f4d275a0810ba72",
+      "method": "vlm_reference",
+      "raw_decision": "normal",
+      "displayed_review_state": "검토 대기"
+    },
+    {
+      "inspection_id": "7413148ebdfc47bbb25d24c7916f73ec",
+      "method": "patchcore",
+      "raw_decision": "normal",
+      "displayed_review_state": "의심 영역 검토 필요"
+    },
+    {
+      "inspection_id": "717d66e30fcb44429f3e77630952c52d",
+      "method": "patchcore_vlm",
+      "raw_decision": "normal",
+      "displayed_review_state": "의심 영역 검토 필요"
+    }
+  ],
+  "browser_visual_qa": false,
+  "external_api_calls": 0,
+  "build": "passed",
+  "backend_tests_passed": 35,
+  "latest_review_loaded_on_detail": true,
+  "old_cache_not_reused": true
+}

@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-09-16T08:02:36.533545+00:00",
+  "status": "ready_for_local_patchcore_inspection",
+  "dataset_source": "MVTec AD metal_nut public archive mirror (see data_card.md)",
+  "archive_sha256": "86e3c8e163ceb19146ad3ddc408e85cc34ae02e0da430e07a73bac6bbb48532a",
+  "counts": {
+    "fit_normal": 176,
+    "calibration_normal": 44,
+    "test": 115
+  },
+  "reference_ids": [
+    "sample_df7562888f04e5ee991f_000"
+  ],
+  "pretrained_patchcore": true,
+  "is_smoke": false,
+  "detector_config_hash": "54410d28da82bfcf2139aacfecd7020951a0a5fd161106724596ac54ebe8e3dc",
+  "split_hash": "352c1a18edac7da537b637814f44342fa9544599890e211bf5997f77ab60c231",
+  "size": 256,
+  "memory_shape": [
+    18022,
+    384
+  ],
+  "image_threshold": 12.092904138565064,
+  "pixel_threshold": 10.902510643005371,
+  "quantile_method": "linear",
+  "external_requests": 0,
+  "exploratory": true,
+  "formal_benchmark_completed": false,
+  "notice": "Five manually selected upload examples verify operation only. They do not establish benchmark performance. No prompt or threshold was tuned using these examples.",
+  "local_http_inspections": [
+    {
+      "inspection_id": "eb1036ac3e0247d9aa336b37f974b4b6",
+      "execution_status": "succeeded",
+      "final_decision": "normal",
+      "anomaly_score": 10.800141334533691,
+      "threshold": 12.092904138565064,
+      "latency_ms": 4007.828790927306,
+      "is_demo": false,
+      "external_requests": 0,
+      "file": "example_01.png",
+      "roi_count": 0
+    },
+    {
+      "inspection_id": "aff7ddfbe2f14615b60a00362a4168a8",
+      "execution_status": "succeeded",
+      "final_decision": "defect_suspected",
+      "anomaly_score": 16.57721710205078,
+      "threshold": 12.092904138565064,
+      "latency_ms": 320.00495900865644,
+      "is_demo": false,
+      "external_requests": 0,
+      "file": "example_02.png",
+      "roi_count": 2
+    },
+    {
+      "inspection_id": "d2b2915062ad408988e937edfcb9dfb0",
+      "execution_status": "succeeded",
+      "final_decision": "defect_suspected",
+      "anomaly_score": 14.215218544006348,
+      "threshold": 12.092904138565064,
+      "latency_ms": 298.97387500386685,
+      "is_demo": false,
+      "external_requests": 0,
+      "file": "example_03.png",
+      "roi_count": 1
+    },
+    {
+      "inspection_id": "7dd97249c16b4a369373f4783a107b30",
+      "execution_status": "succeeded",
+      "final_decision": "defect_suspected",
+      "anomaly_score": 18.779129028320312,
+      "threshold": 12.092904138565064,
+      "latency_ms": 298.94925002008677,
+      "is_demo": false,
+      "external_requests": 0,
+      "file": "example_04.png",
+      "roi_count": 1
+    },
+    {
+      "inspection_id": "abbc8081273a496a9ad12522e3b5cc33",
+      "execution_status": "succeeded",
+      "final_decision": "normal",
+      "anomaly_score": 11.860912322998047,
+      "threshold": 12.092904138565064,
+      "latency_ms": 313.13933397177607,
+      "is_demo": false,
+      "external_requests": 0,
+      "file": "example_05.png",
+      "roi_count": 1
+    }
+  ],
+  "observed_limitation": "example_05.png is labeled scratch in the source dataset but PatchCore returned normal. No threshold change was made. This is an exploratory false-negative example, not a benchmark estimate."
+}

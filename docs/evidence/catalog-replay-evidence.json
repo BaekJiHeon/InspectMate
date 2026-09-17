@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-09-17T18:01:25.782759+09:00",
+  "capture_kind": "saved_result_replay",
+  "new_inference_requests": 0,
+  "source_inspection_ids": {
+    "B": "94f79c2c68a84e4da9c2f5019703ad97",
+    "C": "6280e7dc8c344273b32413a5af374a05"
+  },
+  "original_evidence_sha256": "b0f3962a691783a43b6aace1213a53bcc20885e17d92b1d85a47cdc8f2a154b5",
+  "ui": {
+    "layout": "catalog",
+    "font": "Hahmlet",
+    "title": "금속 너트 외관 이상탐지"
+  },
+  "scope": "Actual local service screenshots showing saved actual results; no new model calls, follow-up submissions, or review saves. Frame hold times are explanatory, not inference timing.",
+  "media": [
+    {
+      "filename": "vlm-workflow-catalog.gif",
+      "bytes": 849118,
+      "size": [
+        1147,
+        989
+      ],
+      "frames": 5,
+      "duration_ms": 20000,
+      "sha256": "dc1296dc7e7e2ee16c63ac33ead874cb1f95ae583ee62936c8d6f59f9c95e58e",
+      "scenes": [
+        {
+          "file": "b01-history.png",
+          "title": "01  검사 이력에서 B 기록 선택",
+          "duration_ms": 2500
+        },
+        {
+          "file": "b02-overview.png",
+          "title": "02  금속 너트 외관 이상탐지",
+          "duration_ms": 3000
+        },
+        {
+          "file": "b03-comparison.png",
+          "title": "03  검사 원본과 정상 참조 비교",
+          "duration_ms": 4000
+        },
+        {
+          "file": "b04-observations.png",
+          "title": "04  관찰 근거와 불확실성 확인",
+          "duration_ms": 6000
+        },
+        {
+          "file": "b05-review.png",
+          "title": "05  추가 관찰과 검사자 재검토",
+          "duration_ms": 4500
+        }
+      ]
+    },
+    {
+      "filename": "patchcore-workflow-catalog.gif",
+      "bytes": 887852,
+      "size": [
+        1147,
+        989
+      ],
+      "frames": 5,
+      "duration_ms": 23000,
+      "sha256": "174d28972185007346a318726fbce62c90f84b36c5a94cd59b5a8ba85bc2693d",
+      "scenes": [
+        {
+          "file": "c01-history.png",
+          "title": "01  검사 이력에서 C 기록 선택",
+          "duration_ms": 2500
+        },
+        {
+          "file": "c02-candidate.png",
+          "title": "02  검사 원본과 의심 영역",
+          "duration_ms": 3500
+        },
+        {
+          "file": "c03-decision.png",
+          "title": "03  원시 판정과 검토 상태를 구분",
+          "duration_ms": 5000
+        },
+        {
+          "file": "c04-diagnosis.png",
+          "title": "04  같은 이미지의 두 가지 기준",
+          "duration_ms": 6500
+        },
+        {
+          "file": "c05-scores.png",
+          "title": "05  정상 사진의 점수 분포와 비교",
+          "duration_ms": 5500
+        }
+      ]
+    }
+  ]
+}

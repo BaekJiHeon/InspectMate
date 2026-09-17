@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-16T07:18:13.682703+00:00",
+  "frontend_http": 200,
+  "backend_http": 200,
+  "demo_inspection_saved_and_retrieved": true,
+  "demo_history_found": true,
+  "review_saved": true,
+  "invalid_image_rejected": true,
+  "external_api_enabled": false,
+  "external_requests": 0,
+  "data_ready": false,
+  "browser_visual_qa": false
+}

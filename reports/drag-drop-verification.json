@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-16T08:34:09.174073+00:00",
+  "change": "Query-image native file drag and drop using existing upload API",
+  "typescript_and_vite_build": "passed",
+  "local_frontend_http": 200,
+  "updated_module_served": true,
+  "browser_drag_event_tested": false,
+  "review": "Read-only review; async image/result and consent guards applied",
+  "backend_changed": false
+}

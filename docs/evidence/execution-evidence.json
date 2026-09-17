@@ -1,0 +1,98 @@
+{
+  "capture_date": "2026-09-17",
+  "scope": "One live C and one live B run of an already known scratch example. Exploratory demonstration, not held-out evaluation. GIF is an edited sequence of actual UI captures.",
+  "records": [
+    {
+      "inspection_id": "94f79c2c68a84e4da9c2f5019703ad97",
+      "created_at": "2026-09-17T06:04:12.920474+00:00",
+      "method": "vlm_reference",
+      "model": "gpt-4.1-mini-2025-04-14",
+      "prompt_version": "inspection-v2-observation-first",
+      "criteria_version": "appearance-v2-observation-first",
+      "image_hash": "ab65bcd865f3a64472db710ab2a258f91fd958cd40b57ef4d4a3fc680e62399e",
+      "reference_ids": [
+        "sample_df7562888f04e5ee991f_000"
+      ],
+      "roi": [],
+      "detector_decision": null,
+      "vlm_decision": "defect_suspected",
+      "final_decision": "defect_suspected",
+      "anomaly_score": null,
+      "threshold": null,
+      "pixel_threshold": null,
+      "execution_status": "succeeded",
+      "is_demo": false,
+      "cache_hit": false,
+      "latency_ms": 4205.961667001247,
+      "end_to_end_ms": 4295.252416050062,
+      "external_requests": 1,
+      "retry_count": 0,
+      "usage": {
+        "input_tokens": 2468,
+        "output_tokens": 144,
+        "total_tokens": 2612
+      },
+      "result": {
+        "decision": "defect_suspected",
+        "summary": "금속 너트 표면에 정상 참조와 비교해 오른쪽 하단 부근에 긁힘과 같은 손상 의심 흔적이 관찰된다.",
+        "observations": [
+          {
+            "image_id": "sample_98ac270a857843b6",
+            "location": "오른쪽 하단 부근",
+            "fact": "표면에 긁힘과 같은 손상 의심 흔적이 있음",
+            "reference_id": null
+          }
+        ],
+        "uncertainties": [
+          "손상 깊이와 허용 기준 미제공"
+        ],
+        "recommended_action": "손상 부위를 확대 관찰하고 손상 깊이 및 허용 기준과 비교하여 추가 평가 필요"
+      }
+    },
+    {
+      "inspection_id": "6280e7dc8c344273b32413a5af374a05",
+      "created_at": "2026-09-17T06:02:27.704544+00:00",
+      "method": "patchcore",
+      "model": "patchcore-resnet18",
+      "prompt_version": "inspection-v2-observation-first",
+      "criteria_version": "appearance-v2-observation-first",
+      "image_hash": "ab65bcd865f3a64472db710ab2a258f91fd958cd40b57ef4d4a3fc680e62399e",
+      "reference_ids": [],
+      "roi": [
+        {
+          "box": [
+            361,
+            425,
+            494,
+            527
+          ],
+          "peak_score": 11.909557342529297,
+          "role": "review_candidate"
+        }
+      ],
+      "detector_decision": "normal",
+      "vlm_decision": null,
+      "final_decision": "normal",
+      "anomaly_score": 11.860912322998047,
+      "threshold": 12.092904138565064,
+      "pixel_threshold": 10.902510643005371,
+      "execution_status": "succeeded",
+      "is_demo": false,
+      "cache_hit": false,
+      "latency_ms": 669.7583330096677,
+      "end_to_end_ms": 680.2320419810712,
+      "external_requests": 0,
+      "retry_count": 0,
+      "usage": null,
+      "result": {
+        "decision": "normal",
+        "summary": "규칙 기반 안내: 이미지 이상 점수와 정상 calibration 임계값을 비교한 결과입니다.",
+        "observations": [],
+        "uncertainties": [
+          "점수는 불량 확률이 아닙니다."
+        ],
+        "recommended_action": "원본 이미지와 의심 영역을 검사자가 검토하세요."
+      }
+    }
+  ]
+}

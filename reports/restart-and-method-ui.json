@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-09-16T09:00:05.822826+00:00",
+  "backend_restarted": true,
+  "local_inspection_status": "succeeded",
+  "local_inspection_id": "3802a5281d0d4784a5bc38b1374b2609",
+  "final_decision": "defect_suspected",
+  "real_vlm_test": "pending_user_saved_config_location",
+  "external_api_enabled": false,
+  "external_requests": 0,
+  "typescript_vite_build": "passed",
+  "browser_visual_qa": false
+}

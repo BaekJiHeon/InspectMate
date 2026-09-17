@@ -1,0 +1,39 @@
+{
+  "inspection_id": "7413148ebdfc47bbb25d24c7916f73ec",
+  "created_at": "2026-09-16T23:47:14.856502+00:00",
+  "input": "datasets/mvtec_ad/metal_nut/test/scratch/000.png",
+  "stored_input_pixel_identical_to_dataset": true,
+  "ground_truth": "defect/scratch",
+  "prediction": "normal",
+  "detector_config_hash": "54410d28da82bfcf2139aacfecd7020951a0a5fd161106724596ac54ebe8e3dc",
+  "image_score": 11.860912322998047,
+  "image_threshold": 12.092904138565064,
+  "map_peak": 11.909557342529297,
+  "pixel_threshold": 10.902510643005371,
+  "roi": [
+    {
+      "box": [
+        361,
+        425,
+        494,
+        527
+      ],
+      "peak_score": 11.909557342529297,
+      "role": "review_candidate"
+    }
+  ],
+  "original_size": [
+    700,
+    700
+  ],
+  "model_input_size": 256,
+  "fit_count": 176,
+  "calibration_count": 44,
+  "normal_calibration_scores_higher_than_case": 3,
+  "mask_pixels": 9302,
+  "above_pixel_threshold_pixels": 4936,
+  "overlap_pixels": 4513,
+  "single_case_pixel_recall": 0.4851644807568265,
+  "single_case_pixel_precision": 0.9143030794165316,
+  "scope": "Single saved inspection analysis; ground truth used only after inference for evaluation. No model, thresholds, application code or saved inspection modified; no external API calls."
+}

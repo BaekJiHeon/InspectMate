@@ -1,0 +1,36 @@
+[project]
+name = "inspectmate"
+version = "0.1.0"
+description = "Reference-grounded visual inspection research prototype"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.35,<1", "pydantic>=2.10,<3",
+  "pydantic-settings>=2.9,<3", "openai>=2,<3", "httpx>=0.28,<1",
+  "python-multipart>=0.0.20,<1", "pillow>=11,<13", "numpy>=2,<3", "scipy>=1.15,<2"
+]
+
+[project.optional-dependencies]
+detector = ["anomalib[cpu]==2.3.1", "torch==2.8.0", "torchvision==0.23.0", "timm==1.0.29"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.12,<1"]
+
+[project.scripts]
+inspectmate = "inspectmate.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend/inspectmate"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-09-17T03:18:26.624571+00:00",
+  "scope": "One exploratory B recheck of known scratch test input after user-requested judgment improvements; not held-out validation or accuracy evidence",
+  "previous_inspection_id": "50e6d89943fe41409f4d275a0810ba72",
+  "previous_decision": "normal",
+  "inspection": {
+    "inspection_id": "dc672fd97fc2451697a57434aa0ab7a8",
+    "created_at": "2026-09-17T03:18:22.168728+00:00",
+    "method": "vlm_reference",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "prompt_version": "inspection-v2-observation-first",
+    "criteria_version": "appearance-v2-observation-first",
+    "execution_status": "succeeded",
+    "error_code": null,
+    "error_message": null,
+    "final_decision": "defect_suspected",
+    "vlm_decision": "defect_suspected",
+    "reference_ids": [
+      "sample_df7562888f04e5ee991f_000"
+    ],
+    "usage": {
+      "input_tokens": 2470,
+      "output_tokens": 163,
+      "total_tokens": 2633
+    },
+    "latency_ms": 4365.9204589203,
+    "cache_hit": false,
+    "retry_count": 0,
+    "external_requests": 1,
+    "result": {
+      "decision": "defect_suspected",
+      "summary": "금속 너트 표면에 정상 참조와 비교해 중앙 하단 부근에 긁힘과 같은 손상 흔적이 관찰된다.",
+      "observations": [
+        {
+          "image_id": "sample_c5fabea6e6234532",
+          "location": "중앙 하단 부근",
+          "fact": "표면에 긁힘과 같은 손상 흔적이 관찰됨",
+          "reference_id": "sample_df7562888f04e5ee991f_000"
+        }
+      ],
+      "uncertainties": [
+        "손상 깊이 및 허용 기준 미제공"
+      ],
+      "recommended_action": "손상 부위에 대한 추가 정밀 검사를 권장하며, 허용 기준과 비교하여 불량 여부를 판단할 필요가 있다."
+    }
+  }
+}

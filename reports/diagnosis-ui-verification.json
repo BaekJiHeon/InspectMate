@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-17T00:41:08.804Z",
+  "build": "passed",
+  "react_server_render": "passed",
+  "checks": [
+    {
+      "method": "C",
+      "inspection_id": "7413148ebdfc47bbb25d24c7916f73ec",
+      "rendered": true,
+      "review_advisory": true,
+      "stored_decision_unchanged": true
+    },
+    {
+      "method": "B",
+      "inspection_id": "3228768063c546a294f8bd942e631e52",
+      "rendered": false,
+      "review_advisory": false,
+      "stored_decision_unchanged": true
+    },
+    {
+      "method": "D",
+      "inspection_id": "717d66e30fcb44429f3e77630952c52d",
+      "rendered": true,
+      "review_advisory": true,
+      "stored_decision_unchanged": true
+    }
+  ],
+  "browser_visual_qa": false,
+  "scope": "Actual C/B/D records; diagnosis visibility, exact scores and normal distribution, review advisory without changing saved decisions, missing metadata and zero-range handling. No external VLM calls.",
+  "react_warnings": 0,
+  "image_http": "200; original and map both 700x700"
+}

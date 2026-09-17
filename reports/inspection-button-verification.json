@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-16T08:48:59.826572+00:00",
+  "change": "Visible inspection action below query image, disabled explanation, available local default",
+  "typescript_and_vite_build": "passed",
+  "updated_module_served": true,
+  "detector_ready": true,
+  "external_api_enabled": false,
+  "external_requests": 0,
+  "browser_click_tested": false,
+  "backend_changed": false
+}

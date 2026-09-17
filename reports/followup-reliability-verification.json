@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-17T02:59:05.215192+00:00",
+  "followup_prompt_version": "followup-v2-independent-observation",
+  "inspection_prompt_version": "inspection-v1",
+  "related_tests_passed": 22,
+  "ruff": "passed",
+  "backend_restarted": true,
+  "prior_request_budget_preserved": true,
+  "new_external_calls": 0,
+  "perception_improvement_verified": false,
+  "original_inspection_id": "2694ed209f4f4b70987b80ae58a61c35",
+  "original_inspection_unchanged": true
+}

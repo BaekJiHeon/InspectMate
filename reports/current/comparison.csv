@@ -1,0 +1,1 @@
+sample_id,truth,method,execution_status,final_decision,detector_decision,vlm_decision,error_code,latency_ms,cache_hit

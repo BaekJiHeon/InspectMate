@@ -1,0 +1,8 @@
+{
+  "status": "not_run",
+  "reason": "데이터 설치·PatchCore fit/calibration 및 실제 B 단일 검사 확인 완료. 전체 A/B/C/D 비교 평가 미실행",
+  "sample_count": null,
+  "methods": {"vlm_only": null, "vlm_reference": null, "patchcore": null, "patchcore_vlm": null},
+  "explanation_accuracy": null,
+  "is_demo": false
+}
